@@ -1,0 +1,6 @@
+#presentacion{
+    height: 80vh;
+    /* Estoy usando estilos en bootstrap, pero esto hace lo mismo */
+    /* display: flex;
+    align-items: center; */
+}
