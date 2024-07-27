@@ -1,6 +1,15 @@
 #presentacion{
     height: 80vh;
-    /* Estoy usando estilos en bootstrap, pero esto hace lo mismo */
+    /* Estoy usando estilos en bootstrap, pero esto hace lo mismo
     /* display: flex;
     align-items: center; */
+}
+
+.navbar{
+    background-color: rgb(194, 159, 250);
+}
+
+.btn-primary {
+    background-color: rgb(133, 64, 245);
+    border-color: rgb(133, 64, 245);
 }
