@@ -13,3 +13,22 @@
     background-color: rgb(133, 64, 245);
     border-color: rgb(133, 64, 245);
 }
+
+/* Sección de proyectos */
+
+.proyecto{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#proyecto-1{
+    background-image: url(assets/proyecto-comunidades-mayas.jpg);
+}
+#proyecto-2{
+    background-image: url(assets/clonGoogle.png);
+}
+
+.text-shadow-1 {
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
