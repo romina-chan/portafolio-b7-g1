@@ -10,7 +10,7 @@ Este proyecto es un portafolio creado para poner en práctica las habilidades ad
 
 ## Secciones del sitio
 
-![Presentación](assets/readme/1.png)
+![Presentación](assets/README/1.png)
 
 ## Tecnologías
 * HTML
