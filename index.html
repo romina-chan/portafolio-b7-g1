@@ -12,6 +12,7 @@
     <!-- Hoja de estilos para íconos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <!-- Mi hoja de estilos -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -56,29 +57,23 @@
     <!-- El centro de mi página -->
     <main>
         <!-- Sección de presentación personal -->
-        <section id="presentacion"
-            class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
-            <!-- Imagen -->
-            <!-- <div class=" row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png"
-                    class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-            </div> -->
-            <!-- Texto -->
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Romina Chan
-                </h1>
-                <p class="lead">Ingeniera en Energías Renovables recientemente egresada de la Universidad Autónoma
-                    de Yucatán.
-                </p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a class="btn btn-primary btn-lg px-4 me-md-2" href="https://www.linkedin.com/in/rominachan2801"
-                        target="_blank" role="button">LinkedIn</a>
-                    <a class="btn btn-outline-secondary btn-lg px-4" href="mailto:romina_282001@hotmail.com
+        <section id="presentacion">
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
+                <!-- Texto -->
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Romina Chan
+                    </h1>
+                    <p class="lead">Ingeniera en Energías Renovables recientemente egresada de la Universidad Autónoma
+                        de Yucatán.
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a class="btn btn-primary btn-lg px-4 me-md-2" href="https://www.linkedin.com/in/rominachan2801"
+                            target="_blank" role="button">LinkedIn</a>
+                        <a class="btn btn-outline-secondary btn-lg px-4" href="mailto:romina_282001@hotmail.com
                         ?Subject=Interés%20en%20tus%20proyectos%20-%20Contacto%20Web">Contactar por correo</a>
 
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
         <!-- Sección de habilidades -->
@@ -167,110 +162,97 @@
                     <div id="proyecto-1"
                         class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
 
-                    <!-- Texto de la carta -->
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Comunidades Mayas Sustentables</h3>
+                        <!-- Texto de la carta -->
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Comunidades Mayas Sustentables</h3>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col">
-                <div id="proyecto-2"
-                    class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                    
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google.</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="d-flex align-items-center me-3">
-                                <i class="bi bi-code-square"></i>
-                                <a href="https://github.com/romina-chan/clon-google-b7-g1" target="_blank" class="ps-3">URL</a>
-                            </li>
-                        </ul>
+                <div class="col">
+                    <div id="proyecto-2"
+                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google.</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="https://github.com/romina-chan/clon-google-b7-g1" target="_blank"
+                                        class="ps-3">URL</a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
-                    
                 </div>
-            </div>
 
             </div>
         </section>
 
         <!-- Sección de testimonios -->
         <section id="testimonios">
+            <h1 class="text-center my-5">Testimonios</h1>
             <!-- Carrusel de testimonios -->
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-                <!-- Indicadores de carrusel -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
-                        aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-                        class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
-                        class=""></button>
-                </div>
+            <div id="myCarousel" class="carousel carousel-dark carousel-fade mb-6" data-bs-theme="dark"
+                data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
+
+
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center">
+                            <img src="assets/ada-lovelace.jpeg" height="200px" alt="Imagen">
+                            <h3>Ada Lovelace</h3>
+                            <p>"Romina es una estudiante excepcional"</p>
+                        </article>
                     </div>
+
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center">
+                            <img src="assets/ada-lovelace.jpeg" height="200px" alt="Imagen">
+                            <h3>Another example headline.</h3>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        </article>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer id="contacto" class="py-3 my-4">
+    <footer id="contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
+
+        <p class="mt-5 text-white text-center texto-gigante">
+            <i class="bi bi-file-code-fill"></i>
+        </p>
+
+        <h4 class="text-white text-center my-5">"¿Qué sigue? Sientete libre de contactarme"</h4>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item fs-1">
+                <a href="https://github.com/romina-chan" target="_blank" class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-github"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-1">
+                <a href="https://www.linkedin.com/in/rominachan2801/" target="_blank"
+                    class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </li>
         </ul>
-        <p class="text-center text-body-secondary">© Hecho por Romina Chan 2024</p>
+
+
+
+        <p class="text-center text-light">© 2024 Romina Chan, TECHNOLOCHICAS PRO</p>
     </footer>
     <!-- Hoja de JS, extraída de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

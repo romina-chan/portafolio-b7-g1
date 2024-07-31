@@ -1,5 +1,9 @@
 #presentacion{
     height: 80vh;
+    background-image: url("assets/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     /* Estoy usando estilos en bootstrap, pero esto hace lo mismo
     /* display: flex;
     align-items: center; */
@@ -13,6 +17,10 @@
     background-color: rgb(133, 64, 245);
     border-color: rgb(133, 64, 245);
 }
+/* .btn-primary:hover {
+    background-color: rgb(133, 64, 245);
+    border-color: rgb(133, 64, 245);
+} */
 
 /* Sección de proyectos */
 
@@ -26,9 +34,14 @@
     background-image: url(assets/proyecto-comunidades-mayas.jpg);
 }
 #proyecto-2{
-    background-image: url(assets/clonGoogle.png);
+    background-image: url(assets/clon-google.png);
 }
 
 .text-shadow-1 {
     text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
+
+/* Footer */
+.texto-gigante{
+    font-size: 80px;
 }
