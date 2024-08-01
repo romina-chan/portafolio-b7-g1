@@ -22,70 +22,80 @@
     <!-- Cabecera de mi página-->
     <header>
         <!-- Divisor de navegación  -->
-        <!-- Background negro con letras blancas y centrado -->
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md fixed-top">
             <div class="container">
-                <a class="navbar-brand text-white" href="#">Romina Chan</a>
+                <a class="navbar-brand fs-3 fw-bold" href="#">Romina Chan</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#presentacion">Inicio</a>
+                            <a class="nav-link fw-semibold" aria-current="page" href="#presentacion">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+                            <a class="nav-link fw-semibold" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+                            <a class="nav-link fw-semibold" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#testimonios">Testimonios</a>
+                            <a class="nav-link fw-semibold" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#contacto">Contacto</a>
+                            <a class="nav-link fw-semibold" href="#contacto">Contacto</a>
                         </li>
 
                     </ul>
                 </div>
             </div>
+
         </nav>
+
     </header>
 
     <!-- El centro de mi página -->
     <main>
         <!-- Sección de presentación personal -->
         <section id="presentacion">
-            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
-                <!-- Texto -->
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Romina Chan
-                    </h1>
-                    <p class="lead">Ingeniera en Energías Renovables recientemente egresada de la Universidad Autónoma
-                        de Yucatán.
-                    </p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a class="btn btn-primary btn-lg px-4 me-md-2" href="https://www.linkedin.com/in/rominachan2801"
-                            target="_blank" role="button">LinkedIn</a>
-                        <a class="btn btn-outline-secondary btn-lg px-4" href="mailto:romina_282001@hotmail.com
-                        ?Subject=Interés%20en%20tus%20proyectos%20-%20Contacto%20Web">Contactar por correo</a>
+            <div class="container col-xxl-8 px-4 py-5">
 
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <!-- Imagen -->
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="assets/portafolio.png" class="d-block mx-lg-auto img-fluid" alt="Romina" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <!-- Texto -->
+                    <div class="col-lg-6">
+                        <h1 id="frase" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hola, soy Romina!</h1>
+                        <p class="lead "> Recién egresada de Ingeniería en Energías Renovables. Me
+                            apasiona integrar tecnología y sostenibilidad, por lo que estoy aprendiendo desarrollo
+                            frontend para aplicarlo en proyectos energéticos. Estoy abierta a colaborar y siempre en
+                            busca de nuevas oportunidades para aprender y crecer.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a class="btn btn-primary btn-lg px-4 me-md-2"
+                                href="https://www.linkedin.com/in/rominachan2801" target="_blank"
+                                role="button">LinkedIn</a>
+                            <a class="btn btn-outline-secondary btn-lg px-4" href="mailto:romina_282001@hotmail.com
+                        ?Subject=Interés%20en%20tus%20proyectos%20-%20Contacto%20Web">Contactar por correo</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Sección de habilidades -->
         <section id="habilidades" class="container px-4 py-5">
             <!-- Título de mi sección -->
-            <h2 class="pb-2 border-bottom">Habilidades</h2>
+            <h2 class="p-2 border border-color border-5 rounded fw-semibold">Habilidades</h2>
             <!-- Contenedor de cartas -->
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="row g-4 py-5 row-cols-2 row-cols-lg-3">
 
                 <div class="feature col">
                     <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                        class="d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 py-2 px-3 rounded">
                         <i class="bi bi-code-square"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis">Desarrollo Web</h3>
@@ -106,17 +116,8 @@
                         class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
                         <i class="bi bi-award"></i>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis">Respnsabilidad</h3>
-                    <p>Soy responsable</p>
-                </div>
-
-                <div class="feature col">
-                    <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
-                        <i class="bi bi-award"></i>
-                    </div>
                     <h3 class="fs-2 text-body-emphasis">Microsoft Office Tools</h3>
-                    <p>Word, Excel, PowerPoint, Outlook</p>
+                    <p>Word, Excel, PowerPoint, Outlook, One Drive</p>
                 </div>
 
                 <div class="feature col">
@@ -134,7 +135,7 @@
                         <i class="bi bi-award"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis">Gestión de Proyectos</h3>
-                    <p>SketchUp, AutoCAD, Helioscope</p>
+                    <p>BuilderTrend y Asana</p>
                 </div>
 
                 <div class="feature col">
@@ -143,7 +144,7 @@
                         <i class="bi bi-award"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis">Monitoreo de Sistemas Fotovoltaicos</h3>
-                    <p>SketchUp, AutoCAD, Helioscope, SolidWorks, QBlade, DesignBuilder y EnergyPlus</p>
+                    <p>SolarEdge, APSystems y Enphase</p>
                 </div>
 
             </div>
@@ -258,6 +259,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- Hoja de JS, extraído de typewriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Mi archivo de JavaScript -->
+    <script src="script.js"></script>
+
 </body>
 
 </html>

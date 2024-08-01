@@ -1,39 +1,46 @@
-#presentacion{
-    height: 80vh;
-    background-image: url("assets/background.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* Estoy usando estilos en bootstrap, pero esto hace lo mismo
-    /* display: flex;
-    align-items: center; */
+/* Color de barra de navegación*/
+.navbar {
+    background-color: rgb(140, 134, 170);
 }
 
-.navbar{
-    background-color: rgb(194, 159, 250);
+/* Presentación */
+#presentacion {
+    background-color: rgb(242, 243, 217);
 }
 
 .btn-primary {
-    background-color: rgb(133, 64, 245);
-    border-color: rgb(133, 64, 245);
+    background-color: rgb(154, 39, 90);
+    border-color: rgb(154, 39, 90);
 }
-/* .btn-primary:hover {
-    background-color: rgb(133, 64, 245);
-    border-color: rgb(133, 64, 245);
-} */
+
+.btn-primary:hover {
+    background-color: rgb(140, 134, 170);
+    border-color: rgb(140, 134, 170);
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgb(140, 134, 170);
+    border-color: rgb(140, 134, 170);
+}
+
+/* Habilidades */
+.border-color {
+    color: rgb(3, 0, 39);
+}
 
 /* Sección de proyectos */
 
-.proyecto{
+.proyecto {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#proyecto-1{
+#proyecto-1 {
     background-image: url(assets/proyecto-comunidades-mayas.jpg);
 }
-#proyecto-2{
+
+#proyecto-2 {
     background-image: url(assets/clon-google.png);
 }
 
@@ -42,6 +49,19 @@
 }
 
 /* Footer */
-.texto-gigante{
+.texto-gigante {
     font-size: 80px;
+}
+
+
+/* Scroll */
+#navbar {
+    transition: background-color 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo semi-transparente */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
 }
