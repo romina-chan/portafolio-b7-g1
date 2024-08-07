@@ -3,9 +3,8 @@
     background-color: rgb(140, 134, 170);
 }
 
-/* Presentación */
-#presentacion {
-    background-color: rgb(242, 243, 217);
+main {
+    background-color: rgb(245, 245, 245);
 }
 
 .btn-primary {
@@ -23,14 +22,25 @@
     border-color: rgb(140, 134, 170);
 }
 
-/* Habilidades */
+/* Sección de habilidades */
+
 .border-color {
-    color: rgb(3, 0, 39);
+    border-color: rgb(140, 134, 170) !important;
+}
+
+.feature .bi {
+    color: rgb(245, 245, 245);
+}
+
+/* Sobrescribir el fondo de text-bg-primary */
+.d-inline-flex.text-bg-primary {
+    background-color: rgb(142, 58, 89) !important;
 }
 
 /* Sección de proyectos */
 
 .proyecto {
+    background-color: rgb(245, 245, 245);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,19 +59,10 @@
 }
 
 /* Footer */
-.texto-gigante {
+#contacto {
+    background-color: rgb(140, 134, 170);
+}
+
+.icono-grande {
     font-size: 80px;
-}
-
-
-/* Scroll */
-#navbar {
-    transition: background-color 0.5s;
-}
-
-.navbar-scrolled {
-    background-color: rgba(255, 255, 255, 0.8);
-    /* Fondo semi-transparente */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    /* Sombra sutil */
 }

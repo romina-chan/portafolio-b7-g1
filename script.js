@@ -15,4 +15,7 @@
     .deleteAll()
     .typeString('Desarrolladora Frontend Jr.')
     .pauseFor(800)
+    .deleteAll()
+    .typeString('Ingeniera en Energías Renovables')
+    .pauseFor(800)
     .start();

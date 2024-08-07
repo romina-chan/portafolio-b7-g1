@@ -91,11 +91,11 @@
             <!-- Título de mi sección -->
             <h2 class="p-2 border border-color border-5 rounded fw-semibold">Habilidades</h2>
             <!-- Contenedor de cartas -->
-            <div class="row g-4 py-5 row-cols-2 row-cols-lg-3">
+            <div class="row g-4 px-4 py-5 row-cols-2 row-cols-lg-3">
 
                 <div class="feature col">
                     <div
-                        class="d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 py-2 px-3 rounded">
+                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
                         <i class="bi bi-code-square"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis">Desarrollo Web</h3>
@@ -153,15 +153,13 @@
         <!-- Sección de proyectos -->
         <section id="proyectos" class="container px-4 py-5">
             <!-- Sección de proyectos -->
-            <h2 class="pb-2 border-bottom">Proyectos</h2>
+            <h2 class="p-2 border border-color border-5 rounded fw-semibold">Proyectos</h2>
 
             <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
 
-
                 <div class="col">
                     <!-- Imagen de la carta -->
-                    <div id="proyecto-1"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
 
                         <!-- Texto de la carta -->
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -171,16 +169,18 @@
                 </div>
 
                 <div class="col">
-                    <div id="proyecto-2"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
 
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google.</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="d-flex align-items-center me-3">
-                                    <i class="bi bi-code-square"></i>
                                     <a href="https://github.com/romina-chan/clon-google-b7-g1" target="_blank"
-                                        class="ps-3">URL</a>
+                                        class="fs-2 nav-link d-inline-block">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://romina-clon-google.netlify.app/" target="_blank"
+                                        class="ps-3">Sitio Web</a>
                                 </li>
                             </ul>
                         </div>
@@ -192,8 +192,8 @@
         </section>
 
         <!-- Sección de testimonios -->
-        <section id="testimonios">
-            <h1 class="text-center my-5">Testimonios</h1>
+        <section id="testimonios" class="container px-4 py-5">
+            <h1 class="my-5 p-2 border border-color border-5 rounded fw-semibold">Testimonios</h1>
             <!-- Carrusel de testimonios -->
             <div id="myCarousel" class="carousel carousel-dark carousel-fade mb-6" data-bs-theme="dark"
                 data-bs-ride="carousel">
@@ -230,30 +230,27 @@
     </main>
 
     <!-- Footer -->
-    <footer id="contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
+    <footer id="contacto" class="py-3">
 
-        <p class="mt-5 text-white text-center texto-gigante">
-            <i class="bi bi-file-code-fill"></i>
+        <p class="px-4 py-5 text-center icono-grande">
+            <i class="bi bi-flower1"></i>
         </p>
 
-        <h4 class="text-white text-center my-5">"¿Qué sigue? Sientete libre de contactarme"</h4>
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item fs-1">
-                <a href="https://github.com/romina-chan" target="_blank" class="nav-link px-5 text-body-secondary">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h4>¡Conecta conmigo!</h4>
+            <div>
+                <a href="https://github.com/romina-chan" target="_blank" class="fs-2 nav-link d-inline-block">
                     <i class="bi bi-github"></i>
                 </a>
-            </li>
-            <li class="nav-item fs-1">
                 <a href="https://www.linkedin.com/in/rominachan2801/" target="_blank"
-                    class="nav-link px-5 text-body-secondary">
+                    class="fs-2 nav-link d-inline-block">
                     <i class="bi bi-linkedin"></i>
                 </a>
-            </li>
-        </ul>
+            </div>
+            <h4>2024 © Romina Chan</h4>
+        </div>
 
 
-
-        <p class="text-center text-light">© 2024 Romina Chan, TECHNOLOCHICAS PRO</p>
     </footer>
     <!-- Hoja de JS, extraída de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
