@@ -6,7 +6,7 @@ Este proyecto es un portafolio creado para poner en práctica las habilidades ad
 
 📱 La página es completamente **responsiva**, adaptándose a diferentes tamaños de pantalla. Incluye una sección de presentación de la autora del proyecto, destacando sus habilidades y experiencias.
 
-🌟 Puedes visitar el sitio terminado aquí --> [Proyecto desplegado](https://voluble-macaron-fdb1a1.netlify.app/)
+🌟 Puedes visitar el sitio terminado aquí --> [Proyecto desplegado](https://rominachan.me/)
 
 ## Secciones del sitio
 
